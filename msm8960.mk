@@ -135,6 +135,10 @@ PRODUCT_PACKAGES += \
     libgenlock \
     memtrack.msm8960
 
+# Healthd
+PRODUCT_PACKAGES += \
+    libhealthd.qcom
+
 # IPv6 tethering
 PRODUCT_PACKAGES += \
     ebtables \

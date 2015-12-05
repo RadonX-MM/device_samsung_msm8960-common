@@ -96,7 +96,7 @@ BOARD_RECOVERY_SWIPE := true
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
-BOARD_SEPOLICY_DIRS += device/samsung/msm8960-common/sepolicy
+BOARD_SEPOLICY_DIRS += device/qcom/sepolicy/msm8960/
 
 # Vold
 BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
